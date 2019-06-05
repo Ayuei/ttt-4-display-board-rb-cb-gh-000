@@ -3,8 +3,8 @@
 def display_board(state)
   i = 0
   puts " #{state[i+=1]} | #{state[i+=1]} | #{state[i+=1]} "
-  print(" ----------- ")
+  puts("-----------")
   puts " #{state[i+=1]} | #{state[i+=1]} | #{state[i+=1]} "
-  print(" ----------- ")
+  puts("-----------")
   puts " #{state[i+=1]} | #{state[i+=1]} | #{state[i+=1]} "
 end
